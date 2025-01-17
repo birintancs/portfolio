@@ -5,7 +5,7 @@ import { Montserrat } from "next/font/google";
 import { useRouter } from "next/navigation";
 import Swal from 'sweetalert2'
 
-const poppins = Poppins({ weight: ["400", "500", "600"] });
+const poppins = Poppins({ weight: ['400', '500', '600'], subsets: ['latin'], preload: true })
 const montserrat = Montserrat({ weight: ["400", "500", "700"] });
 
 export default function Contact() {

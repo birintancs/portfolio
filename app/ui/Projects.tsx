@@ -4,7 +4,7 @@ import { Montserrat } from 'next/font/google';
 import ProjectItem from './ProjectItem';
 
 
-const poppins = Poppins({ weight: ['400', '500', '600'] })
+const poppins = Poppins({ weight: ['400', '500', '600'], subsets: ['latin'], preload: true })
 const montserrat = Montserrat({weight: ['700']})
 
 const projects = [
