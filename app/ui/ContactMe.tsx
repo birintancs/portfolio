@@ -58,7 +58,7 @@ export default function Contact() {
                             className="text-black w-full focus:outline-none rounded-md focus:border-orange-400 border-2 p-2 font-medium"
                         />
                         </div>
-                        {/* Email Input */}
+
                         <div className="flex flex-col w-full">
                         <label
                             htmlFor="email"
@@ -76,7 +76,6 @@ export default function Contact() {
                         </div>
                     </div>
 
-                    {/* Message Section */}
                     <div className="flex flex-col items-start w-full">
                         <label
                         htmlFor="message"
@@ -92,7 +91,6 @@ export default function Contact() {
                         ></textarea>
                     </div>
 
-                    {/* Contact Button */}
                     <button type="submit" className="uppercase px-6 py-3 mt-4 md:mt-8 text-lg font-semibold text-gray-900 bg-orange-400 rounded-md shadow-lg hover:bg-orange-300 transition w-full sm:w-4/6">
                         Contact
                     </button>

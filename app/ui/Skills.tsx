@@ -1,7 +1,7 @@
 import React from 'react';
 import { Poppins } from "next/font/google"
 import { Montserrat } from 'next/font/google';
-import { ClipboardDocumentIcon, CodeBracketIcon, DevicePhoneMobileIcon, DocumentTextIcon, ShieldCheckIcon } from "@heroicons/react/24/outline";
+import { CodeBracketIcon, DevicePhoneMobileIcon, DocumentTextIcon, ShieldCheckIcon } from "@heroicons/react/24/outline";
 
 const poppins = Poppins({ weight: ['400', '500', '600'], subsets: ['latin'], preload: true })
 const montserrat = Montserrat({weight: ['700'], subsets: ['latin'], preload: true})
