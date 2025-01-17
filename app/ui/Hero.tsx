@@ -1,4 +1,5 @@
 import { Poppins } from "next/font/google"
+import Link from 'next/link'
 
 const poppins = Poppins({ weight: ['400', '500', '600'], subsets: ['latin']})
 
@@ -26,7 +27,7 @@ export default function HeroSection() {
                     {/* Button */}
                     <div>
                         <button className="uppercase px-6 py-3 mt-4 md:mt-8 text-lg font-semibold text-gray-900 bg-orange-400 rounded-md shadow-lg hover:bg-orange-300 transition">
-                            Lets Talk
+                            <Link href={'Contact'}>Lets Talk</Link>
                         </button>
                     </div>
 
