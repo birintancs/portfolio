@@ -6,7 +6,7 @@ import Education from "./ui/Education"
 import Contact from "./ui/ContactMe"
 
 
-const poppins = Poppins({ weight: ['400', '500', '600'], subsets: ['latin'], preload: true })
+const poppins = Poppins({ weight: ['400', '500', '600'], subsets: ['latin']})
 
 export default function Page() {
   return (

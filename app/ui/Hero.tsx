@@ -1,7 +1,7 @@
 import { Poppins } from "next/font/google"
 import { colors } from "./colors"
 
-const poppins = Poppins({ weight: ['400', '500', '600'], subsets: ['latin'], preload: true })
+const poppins = Poppins({ weight: ['400', '500', '600'], subsets: ['latin']})
 
 // flex h-[calc(100vh-5rem)] bg-gray-900 text-white w-full justify-center items-center text-center md:w-3/5 sm:w-full md:pl-48 md:pt-52 md:items-start md:justify-start md:text-start
 // px-7 md:px-10 lg:px-22 w-full

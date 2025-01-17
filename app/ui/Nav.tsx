@@ -5,7 +5,7 @@ import { XMarkIcon, Bars3Icon } from "@heroicons/react/24/outline";
 import { useState } from "react";
 import Link from "next/link";
 
-const poppins = Poppins({ weight: ['400', '500', '600'], subsets: ['latin'], preload: true })
+const poppins = Poppins({ weight: ['400', '500', '600'], subsets: ['latin']})
 
 const NavLinks = () => (
   <>
