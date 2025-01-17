@@ -4,7 +4,7 @@ import { AcademicCapIcon } from "@heroicons/react/24/outline";
 
 
 const poppins = Poppins({ weight: ['400', '500', '600'], subsets: ['latin'], preload: true })
-const montserrat = Montserrat({weight: ['700']})
+const montserrat = Montserrat({weight: ['700'], subsets: ['latin'], preload: true })
 
 export default function Achievement({title, subtitle, date, icon}: {title: String, subtitle: String | null, date: String, icon: React.RefAttributes<SVGSVGElement>}) {
     return (

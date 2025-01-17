@@ -4,7 +4,7 @@ import Achievement from "./Achievement";
 import {AcademicCapIcon} from "@heroicons/react/24/outline"
 
 const poppins = Poppins({ weight: ['400', '500', '600'], subsets: ['latin'], preload: true })
-const montserrat = Montserrat({weight: ['700']})
+const montserrat = Montserrat({weight: ['700'], subsets: ['latin'], preload: true })
 
 const Achievements = [
     {

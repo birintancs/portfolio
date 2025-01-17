@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 import Swal from 'sweetalert2'
 
 const poppins = Poppins({ weight: ['400', '500', '600'], subsets: ['latin'], preload: true })
-const montserrat = Montserrat({ weight: ["400", "500", "700"] });
+const montserrat = Montserrat({ weight: ["400", "500", "700"], subsets: ['latin'], preload: true  });
 
 export default function Contact() {
     const router = useRouter();
