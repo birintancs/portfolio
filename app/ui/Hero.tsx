@@ -1,5 +1,4 @@
 import { Poppins } from "next/font/google"
-import { colors } from "./colors"
 
 const poppins = Poppins({ weight: ['400', '500', '600'], subsets: ['latin']})
 

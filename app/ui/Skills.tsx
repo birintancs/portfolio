@@ -5,6 +5,7 @@ import { CodeBracketIcon, DevicePhoneMobileIcon, DocumentTextIcon, ShieldCheckIc
 
 const poppins = Poppins({ weight: ['400', '500', '600'], subsets: ['latin']})
 const montserrat = Montserrat({weight: ['700'], subsets: ['latin']})
+console.log("Montserrat Config", montserrat)
 
 const skills = [
     {

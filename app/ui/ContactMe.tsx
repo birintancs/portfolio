@@ -2,15 +2,12 @@
 
 import { Poppins } from "next/font/google";
 import { Montserrat } from "next/font/google";
-import { useRouter } from "next/navigation";
 import Swal from 'sweetalert2'
 
 const poppins = Poppins({ weight: ['400', '500', '600'], subsets: ['latin']})
 const montserrat = Montserrat({ weight: ["400", "500", "700"], subsets: ['latin']});
 
 export default function Contact() {
-    const router = useRouter();
-
     async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
         event.preventDefault();
         const formElement = event.currentTarget as HTMLFormElement; // Type assertion

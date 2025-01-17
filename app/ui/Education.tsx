@@ -2,6 +2,7 @@ import { Poppins } from "next/font/google"
 import { Montserrat } from 'next/font/google';
 import Achievement from "./Achievement";
 import {AcademicCapIcon} from "@heroicons/react/24/outline"
+import { ReactNode } from 'react';
 
 const poppins = Poppins({ weight: ['400', '500', '600'], subsets: ['latin']})
 const montserrat = Montserrat({weight: ['700'], subsets: ['latin']})
@@ -11,13 +12,13 @@ const Achievements = [
         title: 'BSc in Computer Science ',
         subtitle: 'Wildfred Laurier University',
         date: 'Sept 2019 - Aug 2024',
-        icon: <AcademicCapIcon />
+        icon: <AcademicCapIcon className="w-6 h-6 sm:w-10 sm:h-10 text-orange-400"/> as ReactNode
     },
     {
         title: 'Comptia Security+ ',
         subtitle: null,
         date: 'December, 2024',
-        icon: <AcademicCapIcon />
+        icon: <AcademicCapIcon className="w-6 h-6 sm:w-10 sm:h-10 text-orange-400"/> as ReactNode
     }
 
 ]

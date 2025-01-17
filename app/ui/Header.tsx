@@ -1,4 +1,3 @@
-import { SocialIcon } from "react-social-icons"
 import Nav from "@/app/ui/Nav"
 import Logo from "./Logo"
 // bg-[#2B2E3B]

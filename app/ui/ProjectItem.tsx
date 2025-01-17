@@ -1,7 +1,7 @@
-import { ArrowTurnDownRightIcon, ArrowRightIcon } from '@heroicons/react/24/outline';
+import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link'
 
-export default function ProjectItem({Title, Tools, Desc, Repo}: {Title: String, Tools: Array<string>, Desc: String, Repo: URL}) {
+export default function ProjectItem({Title, Tools, Desc, Repo}: {Title: string, Tools: Array<string>, Desc: string, Repo: URL}) {
     return (
         <div className="flex flex-row justify-center items-start gap-8">
             <div className="w-72 h-72 bg-white rounded-md hidden md:block">
