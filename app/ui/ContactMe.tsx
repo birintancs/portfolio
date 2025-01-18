@@ -46,7 +46,7 @@ export default function Contact() {
 
                     <div className="flex flex-col lg:flex-row lg:space-x-10 space-y-6 lg:space-y-0 w-full">
                         <div className="flex flex-col w-full">
-                        <label htmlFor="fullName" className="mb-1 font-medium text-left">Enter Fullname</label>
+                        <label htmlFor="fullName" className="mb-1 font-medium text-left">Enter Full name</label>
                         <input
                             name="fullName"
                             id="fullName"
