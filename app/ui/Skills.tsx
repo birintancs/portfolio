@@ -10,7 +10,7 @@ console.log("Montserrat Config", montserrat)
 const skills = [
     {
       category: 'Languages',
-      items: ['Python', 'NoSQL (MongoDB)', ],
+      items: ['Python', 'NoSQL (MongoDB)', 'SQL (Postgre)'],
       icon: <CodeBracketIcon className="w-8 h-8 text-orange-400" />,
     },
     {
@@ -28,7 +28,7 @@ const skills = [
     },
     {
       category: 'Ticketing Systems',
-      items: ['ServiceNow'],
+      items: ['ServiceNow, Jira'],
       icon: <DocumentTextIcon className="w-8 h-8 text-orange-400" />,
     },
     {

@@ -11,7 +11,7 @@ export default function Achievement({title, subtitle, date, icon}: {title: strin
                 {icon}
             </div>
             <div className="flex flex-col items-start w-[205px] sm:w-[275px] md:w-[455px]">
-                <h3 className="font-semibold text-base sm:text-xl">{title}<span className="text-orange-400 text-sm md:text-base hidden md:inline-block">| Sept 2019 - Aug 2024</span></h3>
+                <h3 className="font-semibold text-base sm:text-xl">{title}<span className="text-orange-400 text-sm md:text-base hidden md:inline-block">| {date}</span></h3>
                 {subtitle && <span className="text-sm sm:text-md">{subtitle}</span>}
                 <p><span className="text-orange-400 text-sm sm:text-base md:hidden">{date}</span></p>
             </div>
