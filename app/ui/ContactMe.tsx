@@ -42,11 +42,11 @@ export default function Contact() {
         <form action="" onSubmit={handleSubmit}>
             <div className="px-10 sm:px-24 text-center flex flex-col items-center">
                 <h2 className={`text-3xl md:text-5xl font-extrabold mb-12 md:mb-20 text-white ${montserrat.className} tracking-wide`}> Contact Me</h2>
-                <div className={`flex flex-col w-full max-w-2xl space-y-6 lg:space-y-10 ${montserrat.className} items-center md:text-xl`}>
+                <div className={`flex flex-col w-full max-w-2xl space-y-6 lg:space-y-10 ${montserrat.className} items-center md:text-xl min-h-[60vh]`}>
 
                     <div className="flex flex-col lg:flex-row lg:space-x-10 space-y-6 lg:space-y-0 w-full">
                         <div className="flex flex-col w-full">
-                        <label htmlFor="fullName" className="mb-1 font-medium text-left">Enter Full name</label>
+                        <label htmlFor="fullName" className="mb-1 font-medium text-left">Enter Full Name</label>
                         <input
                             name="fullName"
                             id="fullName"
