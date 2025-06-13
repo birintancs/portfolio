@@ -9,8 +9,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        bg1: "var(--bg1)",
+        bg2: "var(--bg2)",
       },
       screens: {
         'sm': '450px'

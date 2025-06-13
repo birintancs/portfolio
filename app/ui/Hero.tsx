@@ -8,7 +8,7 @@ const poppins = Poppins({ weight: ['400', '500', '600'], subsets: ['latin']})
 export default function HeroSection() {
     return (
         <section id="Home" className="flex flex-row">
-            <section className={`${poppins.className} flex flex-col h-[calc(95vh-5rem)] bg-gray-900 text-white sm:w-full lg:w-4/6 2xl:w-3/5 justify-center items-center text-center lg:text-left gap-10`}>
+            <section className={`${poppins.className} flex flex-col h-[calc(95vh-5rem)] bg-bg-1 text-white sm:w-full lg:w-4/6 2xl:w-3/5 justify-center items-center text-center lg:text-left gap-10`}>
                 <div className="w-[150px] h-[150px] bg-white rounded-full lg:hidden">Photo Here</div>
                 <div className="flex flex-col items-center max-w-lg lg:items-start gap-1">
                     {/* Greeting */}
@@ -26,7 +26,7 @@ export default function HeroSection() {
                     
                     {/* Button */}
                     <div>
-                        <button className="uppercase px-6 py-3 mt-4 md:mt-8 text-lg font-semibold text-gray-900 bg-orange-400 rounded-md shadow-lg hover:bg-orange-300 transition">
+                        <button className="uppercase px-6 py-3 mt-4 md:mt-8 text-lg font-semibold text-gray-900 bg-orange-400 rounded-[10px] shadow-lg hover:bg-orange-300 transition">
                             <Link href={'#Contact'}>Lets Talk</Link>
                         </button>
                     </div>

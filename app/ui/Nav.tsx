@@ -28,8 +28,8 @@ export default function Nav() {
       <button
         className="w-6 h-6 md:hidden flex items-center justify-center text-white"
         onClick={() => setMenuToggle(!menuOpen)}
-        aria-label="Toggle Navigation"
-      >
+        aria-label="Toggle Navigation" 
+      > 
         {menuOpen ? <XMarkIcon className="h-6 w-6" /> : <Bars3Icon className="h-6 w-6" />}
       </button>
 
