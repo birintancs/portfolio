@@ -47,7 +47,7 @@ const skills = [
 // card-background: bg-[#1B212F]
 const Skill: React.FC = () => {
   return (
-    <section id="Skills" className={`py-16 md:py-24 bg-[#1E2A44] text-white ${poppins.className}`}>
+    <section id="Skills" className={`py-16 md:py-24 bg-bg1 text-white ${poppins.className}`}>
       <div className="container mx-auto px-16 md:px-24 text-center md:min-h-[650px]">
         <h2 className={`text-3xl md:text-5xl font-extrabold mb-12 md:mb-20 text-white ${montserrat.className} tracking-wide`}>Skills</h2>
         <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
