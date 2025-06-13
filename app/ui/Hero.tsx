@@ -33,9 +33,6 @@ export default function HeroSection() {
 
                 </div>
             </section>
-            <section className="hidden lg:block w-2/6 2xl:w-2/5 bg-orange-400 relative">
-                <div className="w-[300px] h-[400px] bg-white absolute top-1/2 left-[-150px] transform -translate-y-1/2">Photo Here</div>
-            </section>
             {/* <div className="bg-white w-32 h-32 absolute bottom-0 left-3/4"></div> */}
         </section>
 
