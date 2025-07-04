@@ -3,13 +3,12 @@ import Link from 'next/link'
 
 const poppins = Poppins({ weight: ['400', '500', '600'], subsets: ['latin']})
 
-// flex h-[calc(100vh-5rem)] bg-gray-900 text-white w-full justify-center items-center text-center md:w-3/5 sm:w-full md:pl-48 md:pt-52 md:items-start md:justify-start md:text-start
-// px-7 md:px-10 lg:px-22 w-full
 export default function HeroSection() {
     return (
-        <section id="Home" className="flex flex-row">
-            <section className={`${poppins.className} flex flex-col h-[calc(95vh-5rem)] bg-bg1 text-red justify-center items-center text-center lg:text-left gap-10`}>
-                <div className="flex flex-col items-center max-w-lg lg:items-start gap-1">
+        <section id="Home" className="flex flex-row h-[calc(95vh-3rem)]"> {/* Hero Section: */}
+            {/* Left: */}
+            <section className={`${poppins.className} flex bg-bg2 w-1/2 text-center lg:text-start justify-center items-center`}>
+                <div className="flex flex-col items-center max-w-[300] lg:items-start gap-1 mx-auto">
                     {/* Greeting */}
                     <p className="text-lg lg:text-xl font-medium">Hello,</p>
                     
@@ -19,7 +18,7 @@ export default function HeroSection() {
                     </h1>
                     
                     {/* Subheading */}
-                    <p className="text-medium font-medium w-1/2">
+                    <p className="text-medium font-medium">
                     IT Professional, Cybersecurity Enthusiast & Software Developer
                     </p>
                     
@@ -32,7 +31,11 @@ export default function HeroSection() {
 
                 </div>
             </section>
-            {/* <div className="bg-white w-32 h-32 absolute bottom-0 left-3/4"></div> */}
+            {/* Right */}
+            <section className="bg-bg2 w-1/2 flex justify-center items-center border border-black">
+                <div className="w-5/6 h-5/6 bg-white"></div>
+
+            </section>
         </section>
 
     );

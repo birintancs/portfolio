@@ -38,7 +38,7 @@ export default function Contact() {
         }
     }
   return (
-    <section id="Contact" className={`${poppins.className} py-16 md:py-24 bg-gray-900 text-white`}>
+    <section id="Contact" className={`${poppins.className} py-16 md:py-24 bg-bg1 text-white min-h-[calc(95vh-3rem)]`}>
         <form action="" onSubmit={handleSubmit}>
             <div className="px-10 sm:px-24 text-center flex flex-col items-center">
                 <h2 className={`text-3xl md:text-5xl font-extrabold mb-12 md:mb-20 text-white ${montserrat.className} tracking-wide`}> Contact Me</h2>

@@ -28,7 +28,7 @@ const projects = [
 // bg-[#1B212F]
 export default function Projects() {
   return (
-    <section id='Projects' className={`${poppins.className} py-16 md:py-24 bg-[#1B212F]`}>
+    <section id='Projects' className={`${poppins.className} py-16 md:py-24 bg-bg2 min-h-[calc(95vh-3rem)]`}>
       <div className='container text-center mx-auto'>
         <h1 className={`text-3xl md:text-5xl font-extrabold mb-12 md:mb-20 text-white ${montserrat.className} tracking-wide`}>Projects</h1>
         <div className='flex flex-col gap-20 items-center'>
