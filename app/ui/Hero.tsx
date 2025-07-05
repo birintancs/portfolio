@@ -1,11 +1,9 @@
 'use client'
 
-import { Inter } from "next/font/google"
 import { Typewriter } from "react-simple-typewriter"
 import HeroImage from "./HeroImage"
 import TechStack from "./TechStack"
 
-const inter = Inter({ weight: ['400', '500', '600'], subsets: ['latin'] })
 
 export default function HeroSection() {
   return (
