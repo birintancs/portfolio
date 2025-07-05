@@ -1,5 +1,4 @@
 'use client'
-
 import { Typewriter } from "react-simple-typewriter"
 import HeroImage from "./HeroImage"
 import TechStack from "./TechStack"
