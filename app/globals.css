@@ -3,9 +3,15 @@
 @tailwind utilities;
 
 :root {
-  --bg1: #1A232C;
+  --bg1: #0A192F;
   --bg2: #23252F;
-  --text: white;
+  --bg3: #2B2E3B;  /* Navbar/Cards */
+  --primary: #FF7F50; /* Primary Accent */
+  --text2: #00BFA6; /* Secondary Accent */
+  --text3: #FFFFFF; /* Bright white for main headings */
+  --text4: #E0E0E0; /* Dim Grey for sub headings */
+  --text5: #C0C0C0; /* Dim Grey for sub headings */
+  
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,8 +23,7 @@
 
 body {
   color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg2);
 }
 
 .underline1 {

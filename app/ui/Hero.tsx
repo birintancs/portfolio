@@ -1,43 +1,57 @@
-import { Poppins } from "next/font/google"
-import Link from 'next/link'
+'use client'
 
-const poppins = Poppins({ weight: ['400', '500', '600'], subsets: ['latin']})
+import { Inter } from "next/font/google"
+import { Typewriter } from "react-simple-typewriter"
+import HeroImage from "./HeroImage"
+import TechStack from "./TechStack"
+
+const inter = Inter({ weight: ['400', '500', '600'], subsets: ['latin'] })
 
 export default function HeroSection() {
-    return (
-        <section id="Home" className="flex flex-row h-[calc(95vh-3rem)]"> {/* Hero Section: */}
-            {/* Left: */}
-            <section className={`${poppins.className} flex bg-bg2 w-1/2 text-center lg:text-start justify-center items-center`}>
-                <div className="flex flex-col items-center max-w-[300] lg:items-start gap-1 mx-auto">
-                    {/* Greeting */}
-                    <p className="text-lg lg:text-xl font-medium">Hello,</p>
-                    
-                    {/* Main Heading */}
-                    <h1 className="text-3xl lg:text-5xl font-bold text-orange-400">
-                        I’m Birintan
-                    </h1>
-                    
-                    {/* Subheading */}
-                    <p className="text-medium font-medium">
-                    IT Professional, Cybersecurity Enthusiast & Software Developer
-                    </p>
-                    
-                    {/* Button */}
-                    <div>
-                        <button className="uppercase px-6 py-3 mt-4 md:mt-8 text-lg font-semibold text-gray-900 bg-orange-400 rounded-[10px] shadow-lg hover:bg-orange-300 transition">
-                            <Link href={'#Contact'}>Lets Talk</Link>
-                        </button>
-                    </div>
+  return (
+    <section
+      id="Home"
+      className="
+        flex flex-col items-center text-center pt-32 px-6 min-h-[calc(95vh)] w-full bg-bg2
+        md:pt-40
+        lg:flex-row lg:items-start lg:justify-between lg:text-start lg:px-32 lg:pt-52 lg:gap-16 lg:max-w-[1600] lg:mx-auto">
 
-                </div>
-            </section>
-            {/* Right */}
-            <section className="bg-bg2 w-1/2 flex justify-center items-center border border-black">
-                <div className="w-5/6 h-5/6 bg-white"></div>
+      {/* Left Side: Text + TechStack */}
+      <div className="flex flex-col max-w-2xl order-2 mt-6 md:mt-10 lg:order-1 lg:mt-0 lg:flex-1">
+        <div>
+          <h1 className="text-text3 font-medium text-sm md:text-base lg:text-lg">Hi, my name is</h1>
+        </div>
+        <div>
+          <h2 className="text-primary font-bold text-4xl md:text-5xl lg:text-6xl mb-2">Birintan Kandasamy</h2>
+        </div>
+        <div>
+          <h3 className="text-text4 font-semibold text-2xl md:text-3xl lg:text-4xl mb-6">I am a{``} <span className="text-primary"> <Typewriter 
+                words={['Full Stack Developer', 'Aspiring IT Professional', 'Cybersecurity Enthusiast']}
+                loop={0} cursor cursorStyle="|" typeSpeed={70} deleteSpeed={50} delaySpeed={1000}
+                /> </span></h3>
+        </div>
+        <div>
+          <p className="text-text5 font-normal text-base md:text-lg lg:text-xl mb-6">
+            My professional experience includes leveraging analytical thinking and scripting
+            skills to optimize workflows and improve efficiency. Enthusiastic about IT security
+            and systems management, I am eager to apply my technical skills and dedication to solving
+            complex challenges in real-world IT settings.
+          </p>
+        </div>
+        <div>
+          <button className="border-red-100 border-2 p-4 rounded-3xl">Call to Action</button>
+        </div>
 
-            </section>
-        </section>
+        {/* TechStack*/}
+        <div className="mt-10">
+          <TechStack />
+        </div>
+      </div>
 
-    );
-  }
-  
+      {/* Right Side: Hero Image */}
+      <div className="order-1 lg:order-2 flex-shrink-0">
+        <HeroImage />
+      </div>
+    </section>
+  )
+}
