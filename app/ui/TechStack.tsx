@@ -62,7 +62,7 @@ export default function TechStack() {
         {skills[activeTab].map((skill, index) => (
           <span
             key={index}
-            className="px-3 py-1 text-sm font-medium bg-gray-700 text-white rounded-full hover:bg-orange-500 transition"
+            className="px-3 py-1 text-sm font-medium bg-gray-700 text-white rounded-full hover:bg-primary transition"
           >
             {skill}
           </span>

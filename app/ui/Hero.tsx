@@ -11,7 +11,9 @@ export default function HeroSection() {
       className="
         flex flex-col items-center text-center pt-32 px-6 min-h-[calc(95vh)] w-full bg-bg2
         md:pt-40
-        lg:flex-row lg:items-start lg:justify-between lg:text-start lg:px-32 lg:pt-52 lg:gap-16 lg:max-w-[1600] lg:mx-auto">
+        lg:flex-row lg:items-start lg:justify-between lg:text-start lg:px-16 lg:pt-52 lg:gap-16 lg:max-w-[1600px] lg:mx-auto
+        2xl:px-32
+        ">
 
       {/* Left Side: Text + TechStack */}
       <div className="flex flex-col max-w-2xl order-2 mt-6 md:mt-10 lg:order-1 lg:mt-0 lg:flex-1">
