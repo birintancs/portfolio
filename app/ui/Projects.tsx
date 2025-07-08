@@ -36,9 +36,12 @@ const projects: Project[] = [
 
 export default function ProjectSection() {
   return (
-    <section className="max-w-7xl mx-auto py-20 px-6">
-      <h2 className="text-xl text-text3 font-semibold mb-12">
-        <span className="text-sm text-primary">03.</span> Projects
+    <section className="max-w-7xl mx-auto py-20 px-6 lg:h-[95vh]">
+      {/* Section Title */}
+      <h2 className="text-xl text-orange-400 mb-12 flex items-center gap-4">
+        <span className="text-sm text-orange-400">03.</span>
+        <span className="text-gray-100 font-semibold">Projects</span>
+        <div className="flex-grow h-px bg-gray-600"></div>
       </h2>
 
       <div className="flex flex-col space-y-20">

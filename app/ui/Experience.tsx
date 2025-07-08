@@ -65,11 +65,11 @@ export default function ExperienceSection() {
   const [activeCompany, setActiveCompany] = useState<CompanyKey>('upstatement')
 
   return (
-    <section className="px-6 max-w-5xl mx-auto py-20 md:px-32 lg:px-16 h-[95vh] lg:h-[70vh] flex flex-col justify-start md:justify-center">
+    <section className="px-6 max-w-4xl mx-auto py-20 md:px-32 lg:px-6 h-[95vh] lg:h-[85vh] flex flex-col justify-start md:justify-center">
         <div className='md:px-0'>
             <h2 className="text-xl text-primary flex items-center gap-4 mb-8">
-                <span className="text-sm text-primary">02.</span> <span className="text-gray-100 font-semibold">Where I’ve Worked</span>
-                <div className="h-px bg-text5"></div>
+                <span className="text-sm text-primary">02.</span> <span className="text-gray-100 font-semibold">Experience</span>
+                <div className="flex-grow h-px bg-gray-600"></div>
             </h2>
 
             <div className="flex flex-col md:flex-row gap-6 md
@@ -96,7 +96,7 @@ export default function ExperienceSection() {
                 <div>
                 <h3 className="text-lg text-gray-100 font-medium">
                     {experiences[activeCompany].role}{' '}
-                    <span className="text-teal-400">@ {experiences[activeCompany].company}</span>
+                    <span className="text-primary">@ {experiences[activeCompany].company}</span>
                 </h3>
                 <p className="text-sm text-gray-400 mb-4">{experiences[activeCompany].date}</p>
                 <ul className=" space-y-3 text-gray-300 max-w-2xl md:max-w-lg lg:max-w-2xl">
