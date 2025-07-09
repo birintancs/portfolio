@@ -1,7 +1,5 @@
 'use client'
 
-import Image from 'next/image'
-
 const projects = [
   {
     title: 'Vulnerability Management Lab with SCCM & Security Tools',
