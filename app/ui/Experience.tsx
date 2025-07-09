@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 
-type CompanyKey = 'upstatement' | 'apple' | 'scout' | 'starry' | 'mullenlowe'
+type CompanyKey = 'Service Ontario' | 'KGS Research'
 
 interface Experience {
   role: string
@@ -12,57 +12,30 @@ interface Experience {
 }
 
 const experiences: Record<CompanyKey, Experience> = {
-  upstatement: {
-    role: 'Lead Engineer',
-    company: 'Upstatement',
-    date: 'May 2018 – Present',
+  "Service Ontario": {
+    role: 'Customer Service Representative',
+    company: 'Service Ontario',
+    date: 'Jan 2025 – June 2025',
     bullets: [
-      'Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, and more.',
-      'Work alongside creative directors to lead the research, development, and architecture of technical solutions to fulfill business requirements.',
-      'Collaborate with designers, PMs, and engineers to transform creative concepts into production realities for clients and stakeholders.',
-      'Provide leadership within engineering through close collaboration, knowledge shares, and mentorship.'
+      'Delivered front-line support to a high volume of clients and providing accurate information across various government programs and services in a fast-paced, high-pressure environment.',
+      'Resolved customer issues by using probing techniques, assessing situations effectively, and applying relevant rules and procedures with a focus on professionalism, clarity, and empathy.',
+      ' Maintained accurate records and managed sensitive customer information using databases ensuring organized administrative support'
     ]
   },
-  apple: {
-    role: 'Software Engineer Intern',
-    company: 'Apple',
-    date: 'Jan 2017 – Dec 2017',
+  "KGS Research": {
+    role: 'Customer Service Representative',
+    company: 'KGS Research',
+    date: 'Jun 2020 – Oct 2020',
     bullets: [
-      'Built internal tools to support hardware validation processes.',
-      'Worked closely with cross-functional teams to ship reliable software for Apple’s product lines.'
-    ]
-  },
-  scout: {
-    role: 'Developer',
-    company: 'Scout Studio',
-    date: 'Sep 2016 – Dec 2016',
-    bullets: [
-      'Collaborated with designers to develop and ship client websites and apps.',
-      'Improved site accessibility and performance across devices.'
-    ]
-  },
-  starry: {
-    role: 'Software Engineer Co-op',
-    company: 'Starry',
-    date: 'Jan 2016 – Aug 2016',
-    bullets: [
-      'Created internal dashboards to visualize network performance data.',
-      'Automated monitoring processes to improve network reliability.'
-    ]
-  },
-  mullenlowe: {
-    role: 'Web Developer Intern',
-    company: 'MullenLowe',
-    date: 'Jun 2015 – Aug 2015',
-    bullets: [
-      'Assisted in building marketing sites and campaign pages.',
-      'Maintained front-end codebase using HTML, CSS, and JavaScript.'
+      'Demonstrated exceptional communication skills by effectively engaging and assisting clients, resulting in improved customer satisfaction and resolution times',
+      'Efficiently conducted a high volume of calls, utilizing troubleshooting skills to quickly resolve issues, ensuring minimal downtime and maximizing customer satisfaction',
+      'Developed and deployed a Python script to detect and automatically terminate voicemail calls, optimizing call handling and increasing efficiency by 66 percent, resulting in a higher number of successful client engagements'
     ]
   }
 }
 
 export default function ExperienceSection() {
-  const [activeCompany, setActiveCompany] = useState<CompanyKey>('upstatement')
+  const [activeCompany, setActiveCompany] = useState<CompanyKey>('Service Ontario')
 
   return (
     <section className="px-6 max-w-4xl mx-auto py-20 md:px-32 lg:px-6 h-[95vh] lg:h-[85vh] flex flex-col justify-start md:justify-center">
