@@ -6,7 +6,7 @@ const projects = [
     description:
       'Configured a virtual network using HyperV and Microsoft SCCM to demonstrate the full lifecycle of vulnerability management: detection, analysis, and remediation. Tools such as Nessus, Nmap, Wireshark, and SCCM were used to secure and monitor a Windows 10 client system.',
     tags: ['HyperV', 'SCCM', 'Nessus', 'Nmap', 'Wireshark', 'Kali Linux', 'Windows Server'],
-    videoUrl: 'https://www.youtube.com/watch?v=6o9BL8Zkr80', 
+    videoUrl: 'https://www.youtube.com/embed/6o9BL8Zkr80', 
     links: [
       { label: 'GitHub', url: 'https://github.com/yourusername/vulnerability-management-lab' } 
     ]
