@@ -22,7 +22,7 @@ const projects = [
     ]
   }
 ]
-
+// Trigger Redeploy
 export default function ProjectSection() {
   return (
     <section className="max-w-7xl mx-auto py-20 px-6">
