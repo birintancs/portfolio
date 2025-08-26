@@ -25,7 +25,7 @@ const projects = [
 // Trigger Redeploy
 export default function ProjectSection() {
   return (
-    <section className="max-w-7xl mx-auto py-20 px-6">
+    <section id="projects" className="max-w-7xl mx-auto py-20 px-6">
       <h2 className="text-xl text-orange-400 mb-12 flex items-center gap-4">
         <span className="text-sm text-orange-400">03.</span>
         <span className="text-gray-100 font-semibold">Projects</span>

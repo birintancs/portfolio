@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function Contact() {
   return (
-    <section id="contact" className="max-w-4xl mx-auto py-20 px-6 text-center">
+    <section id="contact" className="max-w-4xl mx-auto pt-20 pb-40 px-6 text-center">
       {/* Heading */}
       <h2 className="text-xl text-orange-400 mb-6 flex items-center justify-center gap-4">
         <span className="text-sm text-orange-400">05.</span>

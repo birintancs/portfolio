@@ -11,7 +11,7 @@ export default function HeroSection() {
       className="
         flex flex-col items-center text-center pt-32 px-6 min-h-[calc(95vh)] w-full bg-bg2
         md:pt-40
-        lg:flex-row lg:items-start lg:justify-between lg:text-start lg:px-16 lg:pt-52 lg:gap-16 lg:max-w-[1600px] lg:mx-auto
+        lg:flex-row lg:items-start lg:justify-between lg:text-start lg:px-24 lg:pt-52 lg:gap-16 lg:max-w-[1600px] lg:mx-auto
         2xl:px-32
         "
     >
@@ -45,27 +45,14 @@ export default function HeroSection() {
         </div>
         <div>
           <p className="text-text5 font-normal text-base md:text-lg lg:text-xl mb-6">
-            My professional experience includes leveraging analytical thinking and scripting
-            skills to optimize workflows and improve efficiency. Enthusiastic about IT security
-            and systems management, I am eager to apply my technical skills and dedication to solving
-            complex challenges in real-world IT settings.
+          Recent CS graduate with hands-on experience in IT systems and security. My
+professional experience includes leveraging analytical thinking and scripting skills to optimize workflows and
+improve efficiency. Enthusiastic about IT security and systems management, I am eager to apply my technical
+skills and dedication to solving complex challenges in real-world IT settings
           </p>
         </div>
         <div className="flex gap-4">
-          <a
-            href="#contact"
-            className="bg-primary text-white font-medium px-6 py-3 rounded-3xl hover:bg-orange-600 transition"
-          >
-            Contact Me
-          </a>
-          <a
-            href="/resume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="border-2 border-primary text-primary font-medium px-6 py-3 rounded-3xl hover:bg-primary hover:text-white transition"
-          >
-            Download Resume
-          </a>
+          <a href="#contact" className="bg-primary text-white font-medium px-6 py-3 rounded-3xl hover:bg-orange-600 transition cursor-pointer">Contact Me</a>
         </div>
 
         {/* TechStack*/}

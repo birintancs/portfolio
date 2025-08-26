@@ -11,7 +11,7 @@ const certifications = [
 
 export default function Certifications() {
   return (
-    <section id="certifications" className="max-w-7xl mx-auto py-20 px-6">
+    <section id="certs" className="max-w-7xl mx-auto py-20 px-6">
       {/* Section Title */}
       <h2 className="text-xl text-orange-400 mb-12 flex items-center gap-4">
         <span className="text-sm text-orange-400">04.</span>

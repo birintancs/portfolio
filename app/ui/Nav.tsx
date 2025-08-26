@@ -7,10 +7,10 @@ import Link from "next/link";
 const NavLinks = () => (
   <>
     <Link href="#Home" className="hover:text-orange-400 font-medium">Home</Link>
-    <Link href="#Skills" className="hover:text-orange-400 font-medium">Skills</Link>
-    <Link href="#Projects" className="hover:text-orange-400 font-medium">Projects</Link>
-    <Link href="#Education" className="hover:text-orange-400 font-medium">Education</Link>
-    <Link href="#Contact" className="hover:text-orange-400 font-medium">Contact</Link>
+    <Link href="#experience" className="hover:text-orange-400 font-medium">Experience</Link>
+    <Link href="#projects" className="hover:text-orange-400 font-medium">Projects</Link>
+    <Link href="#certs" className="hover:text-orange-400 font-medium">Certifications</Link>
+    <Link href="#contact" className="hover:text-orange-400 font-medium">Contact</Link>
   </>
 );
 

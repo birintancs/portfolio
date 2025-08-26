@@ -38,7 +38,7 @@ export default function ExperienceSection() {
   const [activeCompany, setActiveCompany] = useState<CompanyKey>('Service Ontario')
 
   return (
-    <section className="px-6 max-w-4xl mx-auto py-20 md:px-32 lg:px-6 h-[95vh] lg:h-[85vh] flex flex-col justify-start md:justify-center">
+    <section id='experience' className="px-6 max-w-4xl mx-auto py-20 md:px-32 lg:px-6 h-[95vh] lg:h-[85vh] flex flex-col justify-start md:justify-center">
         <div className='md:px-0'>
             <h2 className="text-xl text-primary flex items-center gap-4 mb-8">
                 <span className="text-sm text-primary">02.</span> <span className="text-gray-100 font-semibold">Experience</span>

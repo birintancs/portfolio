@@ -10,7 +10,8 @@ export default function HeroImage() {
       {/* Image container */}
       <div className="relative w-full h-full border-4 border-bg3 rounded-full lg:rounded-none overflow-hidden">
         <Image
-          src="/1000007715.jpg"
+          // src="/1000007715.jpg"
+          src="/photo.png"
           alt="Birintan Kandasamy Headshot"
           fill
           className="object-cover transition duration-100 rounded-full lg:rounded-none"
