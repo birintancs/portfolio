@@ -41,12 +41,12 @@ export default function Contact() {
         <div>
           <span className="font-semibold">LinkedIn:</span>{' '}
           <Link
-            href="https://www.linkedin.com/in/birintan-kandasamy-104bb1293/"
+            href="https://www.linkedin.com/in/birintank/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-orange-400 hover:underline"
           >
-            linkedin.com/in/birintan-kandasamy
+            linkedin.com/in/birintank/
           </Link>
         </div>
       </div>

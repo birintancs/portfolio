@@ -15,7 +15,7 @@ const experiences: Record<CompanyKey, Experience> = {
   "Service Ontario": {
     role: 'Customer Service Representative',
     company: 'Service Ontario',
-    date: 'Jan 2025 – June 2025',
+    date: 'Jan 2025 – May 2025',
     bullets: [
       'Delivered front-line support to a high volume of clients and providing accurate information across various government programs and services in a fast-paced, high-pressure environment.',
       'Resolved customer issues by using probing techniques, assessing situations effectively, and applying relevant rules and procedures with a focus on professionalism, clarity, and empathy.',
